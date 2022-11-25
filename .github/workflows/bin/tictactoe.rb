@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'pry'
+require_relative '../lib/tic_tac_toe.rb'
+
+g1 = TicTacToe.new
+g1.play
